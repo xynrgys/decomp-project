@@ -1,0 +1,12 @@
+{
+  "binary_id": "b94866ac-ba26-4b93-bb8a-1b600678f932",
+  "filename": "test.exe",
+  "arch": "unknown",
+  "format": "unknown",
+  "entrypoint": 0,
+  "has_nx": false,
+  "is_pie": false,
+  "imports": [],
+  "sections": [],
+  "original_size": 40820
+}

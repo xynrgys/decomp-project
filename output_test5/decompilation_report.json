@@ -1,0 +1,45 @@
+{
+  "binary_metadata": {
+    "binary_id": "b94866ac-ba26-4b93-bb8a-1b600678f932",
+    "filename": "test.exe",
+    "arch": "unknown",
+    "format": "unknown",
+    "entrypoint": 0,
+    "has_nx": false,
+    "is_pie": false,
+    "imports": [],
+    "sections": [],
+    "original_size": 40820
+  },
+  "total_functions": 1,
+  "analyzed_functions": 1,
+  "refined_functions": 1,
+  "verification_results": [
+    {
+      "function_index": 0,
+      "safety": {
+        "safety_status": "safe",
+        "issues": [],
+        "unsafe_patterns_count": 0
+      },
+      "compilation": {
+        "status": "pass",
+        "binary": "C:\\Users\\SYNDAN~1\\AppData\\Local\\Temp\\tmpnntu5v4_\\candidate",
+        "logs": "Compilation successful"
+      },
+      "semantics": {
+        "semantic_equivalence": "partial",
+        "confidence": 0.3,
+        "test_cases_run": 0,
+        "passed": 0,
+        "failed": 0
+      },
+      "confidence": 0.75
+    }
+  ],
+  "summary": {
+    "successful_compilations": 1,
+    "safe_functions": 1,
+    "average_confidence": 0.75
+  }
+}

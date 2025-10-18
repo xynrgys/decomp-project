@@ -1,0 +1,14 @@
+# Development dependencies for the Hybrid LLM-Powered Binary Decompiler
+
+# Include base requirements
+-r requirements.txt
+
+# Development tools
+black>=21.0.0
+flake8>=3.9.0
+mypy>=0.910
+isort>=5.9.0
+
+# Testing tools
+pytest-cov>=2.12.0
+pytest-mock>=3.6.0

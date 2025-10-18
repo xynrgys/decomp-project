@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "decomp-project"
+version = "0.1.0"
+description = "Hybrid LLM-Powered Binary Decompiler"
+authors = ["Engineering / ML Research Team"]
+readme = "README.md"
+packages = [{include = "decomp_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+capstone = "*"
+lief = "*"
+angr = "*"
+unicorn = "*"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+pydantic = "*"
+requests = "*"
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

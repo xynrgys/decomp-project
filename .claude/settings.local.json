@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source venv/Scripts/activate)",
+      "Bash(python main.py test.exe --output output_test4 --llm-provider iflow --log-level INFO)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
